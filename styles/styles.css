@@ -28,9 +28,8 @@
 }
 
 .main_item {
-    height: 8rem;
     border: 1px solid #f2f2f2;
-    padding: 20px;
+    padding: 40px;
     text-align: center;
     transition: box-shadow 0.2s ease;
 }
