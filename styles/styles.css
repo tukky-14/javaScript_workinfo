@@ -22,13 +22,14 @@
     box-sizing: border-box;
     width: 100%;
     padding: 0 2em;
-    margin-top: 2rem;
+    margin: 2rem 0 2rem;
     display: grid;
     grid-gap: 1.5rem;
 }
 
 .main_item {
     border: 1px solid #f2f2f2;
+    font-size: 1.3rem;
     padding: 40px;
     text-align: center;
     transition: box-shadow 0.2s ease;
@@ -38,6 +39,29 @@
     font-weight: bold;
     cursor: pointer;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* Holiday */
+#holiday {
+    margin-bottom: 2rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
 }
 
 /* sm */
